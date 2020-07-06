@@ -113,4 +113,9 @@ body{
 		margin-left: 5px;
 		font-size: 0.8em;
 	}
+	.my-row{
+			border: 1px solid #F38852;
+			background-color: #FFAA88;
+	}
+
 }
