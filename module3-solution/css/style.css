@@ -85,7 +85,10 @@ body{
 		}
 }
 
-@media (min-width: 651px) and (max-width: 767px){
+@media (max-width: 767px){
+	#header-nav{
+		height: 120px;
+	}
 	.navbar-brand h1{
 		font-size: 5vw;
 	}
@@ -96,22 +99,12 @@ body{
 	}
 	#tel{
 		margin-left: 20px;
+		font-size: 2vw;
 	}
 
 	.my-container{
 		margin-left: 10px;
 		margin-right: 10px;
-	}
-	.my-row{
-			border: 1px solid #F38852;
-			background-color: #FFAA88;
-	}
-
-}
-@media(max-width: 650px){
-	#tel{
-		margin-left: 5px;
-		font-size: 0.8em;
 	}
 	.my-row{
 			border: 1px solid #F38852;
