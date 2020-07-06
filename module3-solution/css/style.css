@@ -1,0 +1,107 @@
+
+
+body{
+	background: url('../resources/images/webpagebg.jpg') ;
+}
+
+#header-nav{
+	background: #ffdbca;
+	border-radius: 0px;
+	border: 0;
+	height: 100px;
+}
+
+#logo-img{
+	background: url('../resources/images/food_logo.jpg') no-repeat;
+	height: 100px;
+	width: 175px;
+	border: 1px orange solid;
+	margin-top: 0px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+
+
+.navbar-brand h1{
+	margin-top: 10px;
+	padding-left: : 10px;
+	line-height: 0.8em;
+	font-weight: 500;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+
+#nav-list{
+	margin-top: 10px;
+	background-color: #ffdbca;
+}
+#nav-list li{
+	border-bottom: 1px solid #CCC;
+}
+#nav-list a{
+	color: maroon;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.6em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+#dropdown-button{
+	clear:both;
+}
+
+#tel{
+	margin-top: 20px;
+	margin-left: 40px;
+}
+#tel a{
+	font-size: 1.6em;
+}
+@media (min-width: 992px)
+{
+		.my-row{
+			border: 1px solid #F38852;
+			background-color: #FFAA88;
+		}
+}
+@media (min-width: 768px) and (max-width: 991px){
+		.my-row{
+			border: 1px solid #F38852;
+			background-color: #FFAA88;
+		}
+}
+
+@media (max-width: 767px){
+	.navbar-brand h1{
+		font-size: 5vw;
+	}
+	.navbar-brand h1, .navbar-brand p{
+		float: left;
+		margin-right: 10px;
+		vertical-align: center;
+	}
+	#tel{
+		margin-left: 20px;
+	}
+
+	.my-container{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.my-row{
+			border: 1px solid #F38852;
+			background-color: #FFAA88;
+	}
+
+}
