@@ -142,6 +142,7 @@ function chooseRandomCategory (categories) {
 // Load the menu categories view
 dc.loadMenuCategories = function () {
   showLoading("#main-content");
+  console.log(chosenCategoryShortName);
   $ajaxUtils.sendGetRequest(
     allCategoriesUrl,
     buildAndShowCategoriesHTML);
